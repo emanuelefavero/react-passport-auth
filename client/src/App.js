@@ -68,7 +68,7 @@ function App() {
 
   useEffect(() => {
     getUser()
-  }, [data])
+  }, [])
 
   return (
     <div className='App'>
